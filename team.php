@@ -11,8 +11,8 @@
         <link href="img/favicon.ico" rel="icon">
 
         <!-- Google Font -->
-        <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,600;1,700;1,800&family=Roboto:wght@400;500&display=swap" rel="stylesheet"> 
-        
+        <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,600;1,700;1,800&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
         <!-- CSS Libraries -->
         <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
@@ -31,7 +31,7 @@
                     <div class="row">
                         <div class="col-lg-3">
                             <div class="logo">
-                                <a href="index.html">
+                                <a href="index.php">
                                     <h1>Kanun</h1>
                                     <!-- <img src="img/logo.jpg" alt="Logo"> -->
                                 </a>
@@ -71,19 +71,19 @@
 
                         <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                             <div class="navbar-nav mr-auto">
-                                <a href="index.html" class="nav-item nav-link">Home</a>
-                                <a href="about.html" class="nav-item nav-link">About</a>
-                                <a href="service.html" class="nav-item nav-link">Practice</a>
-                                <a href="team.html" class="nav-item nav-link">Attorneys</a>
-                                <a href="portfolio.html" class="nav-item nav-link">Case Studies</a>
+                                <a href="index.php" class="nav-item nav-link">Home</a>
+                                <a href="about.php" class="nav-item nav-link">About</a>
+                                <a href="service.php" class="nav-item nav-link">Practice</a>
+                                <a href="team.php" class="nav-item nav-link active">Attorneys</a>
+                                <a href="portfolio.php" class="nav-item nav-link">Case Studies</a>
                                 <div class="nav-item dropdown">
-                                    <a href="#" class="nav-link dropdown-toggle active" data-toggle="dropdown">Pages</a>
+                                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages</a>
                                     <div class="dropdown-menu">
-                                        <a href="blog.html" class="dropdown-item">Blog Page</a>
-                                        <a href="single.html" class="dropdown-item">Single Page</a>
+                                        <a href="single-page.php" class="dropdown-item">Blog Page</a>
+                                        <a href="#" class="dropdown-item">Single Page</a>
                                     </div>
                                 </div>
-                                <a href="contact.html" class="nav-item nav-link">Contact</a>
+                                <a href="contact.php" class="nav-item nav-link">Contact</a>
                             </div>
                             <div class="ml-auto">
                                 <a class="btn" href="">Get Appointment</a>
@@ -93,18 +93,18 @@
                 </div>
             </div>
             <!-- Nav Bar End -->
-            
-            
+
+
             <!-- Page Header Start -->
             <div class="page-header">
                 <div class="container">
                     <div class="row">
                         <div class="col-12">
-                            <h2>Our Blog</h2>
+                            <h2>Attorneys</h2>
                         </div>
                         <div class="col-12">
                             <a href="">Home</a>
-                            <a href="">Our Blog</a>
+                            <a href="">Attorneys</a>
                         </div>
                     </div>
                 </div>
@@ -112,154 +112,114 @@
             <!-- Page Header End -->
 
 
-            <!-- Blog Start -->
-            <div class="blog">
+            <!-- About Start -->
+            <div class="about">
                 <div class="container">
-                    <div class="section-header">
-                        <h2>Latest From Blog</h2>
-                    </div>
-                    <div class="row blog-page">
-                        <div class="col-lg-4 col-md-6 blog-item">
-                            <img src="img/blog-1.jpg" alt="Blog">
-                            <h3>Lorem ipsum dolor</h3>
-                            <div class="meta">
-                                <i class="fa fa-list-alt"></i>
-                                <a href="">Civil Law</a>
-                                <i class="fa fa-calendar-alt"></i>
-                                <p>01-Jan-2045</p>
+                    <div class="row align-items-center">
+                        <div class="col-lg-5 col-md-6">
+                            <div class="about-img">
+                                <img src="img/about.jpg" alt="Image">
                             </div>
-                            <p>
-                                Lorem ipsum dolor sit amet elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor
-                            </p>
-                            <a class="btn" href="">Read More <i class="fa fa-angle-right"></i></a>
                         </div>
-                        <div class="col-lg-4 col-md-6 blog-item">
-                            <img src="img/blog-2.jpg" alt="Blog">
-                            <h3>Lorem ipsum dolor</h3>
-                            <div class="meta">
-                                <i class="fa fa-list-alt"></i>
-                                <a href="">Family Law</a>
-                                <i class="fa fa-calendar-alt"></i>
-                                <p>01-Jan-2045</p>
+                        <div class="col-lg-7 col-md-6">
+                            <div class="section-header">
+                                <h2>About Attorneys</h2>
                             </div>
-                            <p>
-                                Lorem ipsum dolor sit amet elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor
-                            </p>
-                            <a class="btn" href="">Read More <i class="fa fa-angle-right"></i></a>
-                        </div>
-                        <div class="col-lg-4 col-md-6 blog-item">
-                            <img src="img/blog-3.jpg" alt="Blog">
-                            <h3>Lorem ipsum dolor</h3>
-                            <div class="meta">
-                                <i class="fa fa-list-alt"></i>
-                                <a href="">Business Law</a>
-                                <i class="fa fa-calendar-alt"></i>
-                                <p>01-Jan-2045</p>
+                            <div class="about-text">
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum, viverra quis sem.
+                                </p>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum, viverra quis sem. Curabitur non nisl nec nisi scelerisque maximus. Aenean consectetur convallis porttitor. Aliquam interdum at lacus non blandit.
+                                </p>
+                                <a class="btn" href="">Learn More</a>
                             </div>
-                            <p>
-                                Lorem ipsum dolor sit amet elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor
-                            </p>
-                            <a class="btn" href="">Read More <i class="fa fa-angle-right"></i></a>
-                        </div>
-                        <div class="col-lg-4 col-md-6 blog-item">
-                            <img src="img/blog-1.jpg" alt="Blog">
-                            <h3>Lorem ipsum dolor</h3>
-                            <div class="meta">
-                                <i class="fa fa-list-alt"></i>
-                                <a href="">Education Law</a>
-                                <i class="fa fa-calendar-alt"></i>
-                                <p>01-Jan-2045</p>
-                            </div>
-                            <p>
-                                Lorem ipsum dolor sit amet elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor
-                            </p>
-                            <a class="btn" href="">Read More <i class="fa fa-angle-right"></i></a>
-                        </div>
-                        <div class="col-lg-4 col-md-6 blog-item">
-                            <img src="img/blog-2.jpg" alt="Blog">
-                            <h3>Lorem ipsum dolor</h3>
-                            <div class="meta">
-                                <i class="fa fa-list-alt"></i>
-                                <a href="">Criminal Law</a>
-                                <i class="fa fa-calendar-alt"></i>
-                                <p>01-Jan-2045</p>
-                            </div>
-                            <p>
-                                Lorem ipsum dolor sit amet elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor
-                            </p>
-                            <a class="btn" href="">Read More <i class="fa fa-angle-right"></i></a>
-                        </div>
-                        <div class="col-lg-4 col-md-6 blog-item">
-                            <img src="img/blog-3.jpg" alt="Blog">
-                            <h3>Lorem ipsum dolor</h3>
-                            <div class="meta">
-                                <i class="fa fa-list-alt"></i>
-                                <a href="">Cyber Law</a>
-                                <i class="fa fa-calendar-alt"></i>
-                                <p>01-Jan-2045</p>
-                            </div>
-                            <p>
-                                Lorem ipsum dolor sit amet elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor
-                            </p>
-                            <a class="btn" href="">Read More <i class="fa fa-angle-right"></i></a>
-                        </div>
-                        <div class="col-lg-4 col-md-6 blog-item">
-                            <img src="img/blog-1.jpg" alt="Blog">
-                            <h3>Lorem ipsum dolor</h3>
-                            <div class="meta">
-                                <i class="fa fa-list-alt"></i>
-                                <a href="">Property Law</a>
-                                <i class="fa fa-calendar-alt"></i>
-                                <p>01-Jan-2045</p>
-                            </div>
-                            <p>
-                                Lorem ipsum dolor sit amet elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor
-                            </p>
-                            <a class="btn" href="">Read More <i class="fa fa-angle-right"></i></a>
-                        </div>
-                        <div class="col-lg-4 col-md-6 blog-item">
-                            <img src="img/blog-2.jpg" alt="Blog">
-                            <h3>Lorem ipsum dolor</h3>
-                            <div class="meta">
-                                <i class="fa fa-list-alt"></i>
-                                <a href="">Political Law</a>
-                                <i class="fa fa-calendar-alt"></i>
-                                <p>01-Jan-2045</p>
-                            </div>
-                            <p>
-                                Lorem ipsum dolor sit amet elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor
-                            </p>
-                            <a class="btn" href="">Read More <i class="fa fa-angle-right"></i></a>
-                        </div>
-                        <div class="col-lg-4 col-md-6 blog-item">
-                            <img src="img/blog-3.jpg" alt="Blog">
-                            <h3>Lorem ipsum dolor</h3>
-                            <div class="meta">
-                                <i class="fa fa-list-alt"></i>
-                                <a href="">Social Law</a>
-                                <i class="fa fa-calendar-alt"></i>
-                                <p>01-Jan-2045</p>
-                            </div>
-                            <p>
-                                Lorem ipsum dolor sit amet elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor
-                            </p>
-                            <a class="btn" href="">Read More <i class="fa fa-angle-right"></i></a>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-12">
-                            <ul class="pagination justify-content-center">
-                                <li class="page-item disabled"><a class="page-link" href="#">Previous</a></li>
-                                <li class="page-item"><a class="page-link" href="#">1</a></li>
-                                <li class="page-item active"><a class="page-link" href="#">2</a></li>
-                                <li class="page-item"><a class="page-link" href="#">3</a></li>
-                                <li class="page-item"><a class="page-link" href="#">Next</a></li>
-                            </ul> 
                         </div>
                     </div>
                 </div>
             </div>
-            <!-- Blog End -->
+            <!-- About End -->
+
+
+            <!-- Team Start -->
+            <div class="team">
+                <div class="container">
+                    <div class="section-header">
+                        <h2>Meet Our Expert Attorneys</h2>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6">
+                            <div class="team-item">
+                                <div class="team-img">
+                                    <img src="img/team-1.jpg" alt="Team Image">
+                                </div>
+                                <div class="team-text">
+                                    <h2>Adam Phillips</h2>
+                                    <p>Business Consultant</p>
+                                    <div class="team-social">
+                                        <a class="social-tw" href=""><i class="fab fa-twitter"></i></a>
+                                        <a class="social-fb" href=""><i class="fab fa-facebook-f"></i></a>
+                                        <a class="social-li" href=""><i class="fab fa-linkedin-in"></i></a>
+                                        <a class="social-in" href=""><i class="fab fa-instagram"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="team-item">
+                                <div class="team-img">
+                                    <img src="img/team-2.jpg" alt="Team Image">
+                                </div>
+                                <div class="team-text">
+                                    <h2>Dylan Adams</h2>
+                                    <p>Criminal Consultant</p>
+                                    <div class="team-social">
+                                        <a class="social-tw" href=""><i class="fab fa-twitter"></i></a>
+                                        <a class="social-fb" href=""><i class="fab fa-facebook-f"></i></a>
+                                        <a class="social-li" href=""><i class="fab fa-linkedin-in"></i></a>
+                                        <a class="social-in" href=""><i class="fab fa-instagram"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="team-item">
+                                <div class="team-img">
+                                    <img src="img/team-3.jpg" alt="Team Image">
+                                </div>
+                                <div class="team-text">
+                                    <h2>Gloria Edwards</h2>
+                                    <p>Divorce Consultant</p>
+                                    <div class="team-social">
+                                        <a class="social-tw" href=""><i class="fab fa-twitter"></i></a>
+                                        <a class="social-fb" href=""><i class="fab fa-facebook-f"></i></a>
+                                        <a class="social-li" href=""><i class="fab fa-linkedin-in"></i></a>
+                                        <a class="social-in" href=""><i class="fab fa-instagram"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="team-item">
+                                <div class="team-img">
+                                    <img src="img/team-4.jpg" alt="Team Image">
+                                </div>
+                                <div class="team-text">
+                                    <h2>Josh Dunn</h2>
+                                    <p>Immigration Consultant</p>
+                                    <div class="team-social">
+                                        <a class="social-tw" href=""><i class="fab fa-twitter"></i></a>
+                                        <a class="social-fb" href=""><i class="fab fa-facebook-f"></i></a>
+                                        <a class="social-li" href=""><i class="fab fa-linkedin-in"></i></a>
+                                        <a class="social-in" href=""><i class="fab fa-instagram"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Team End -->
 
 
             <!-- Newsletter Start -->
@@ -351,7 +311,7 @@
                 </div>
             </div>
             <!-- Footer End -->
-            
+
             <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
         </div>
 

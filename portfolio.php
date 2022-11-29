@@ -11,8 +11,8 @@
         <link href="img/favicon.ico" rel="icon">
 
         <!-- Google Font -->
-        <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,600;1,700;1,800&family=Roboto:wght@400;500&display=swap" rel="stylesheet"> 
-        
+        <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,600;1,700;1,800&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
         <!-- CSS Libraries -->
         <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
@@ -31,7 +31,7 @@
                     <div class="row">
                         <div class="col-lg-3">
                             <div class="logo">
-                                <a href="index.html">
+                                <a href="index.php">
                                     <h1>Kanun</h1>
                                     <!-- <img src="img/logo.jpg" alt="Logo"> -->
                                 </a>
@@ -71,19 +71,19 @@
 
                         <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                             <div class="navbar-nav mr-auto">
-                                <a href="index.html" class="nav-item nav-link">Home</a>
-                                <a href="about.html" class="nav-item nav-link">About</a>
-                                <a href="service.html" class="nav-item nav-link active">Practice</a>
-                                <a href="team.html" class="nav-item nav-link">Attorneys</a>
-                                <a href="portfolio.html" class="nav-item nav-link">Case Studies</a>
+                                <a href="index.php" class="nav-item nav-link">Home</a>
+                                <a href="about.php" class="nav-item nav-link">About</a>
+                                <a href="service.php" class="nav-item nav-link">Practice</a>
+                                <a href="team.php" class="nav-item nav-link">Attorneys</a>
+                                <a href="portfolio.php" class="nav-item nav-link active">Case Studies</a>
                                 <div class="nav-item dropdown">
                                     <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages</a>
                                     <div class="dropdown-menu">
-                                        <a href="single-page.html" class="dropdown-item">Blog Page</a>
-                                        <a href="#" class="dropdown-item">Single Page</a>
+                                        <a href="blog.php" class="dropdown-item">Blog Page</a>
+                                        <a href="single.pjp" class="dropdown-item">Single Page</a>
                                     </div>
                                 </div>
-                                <a href="contact.html" class="nav-item nav-link">Contact</a>
+                                <a href="contact.php" class="nav-item nav-link">Contact</a>
                             </div>
                             <div class="ml-auto">
                                 <a class="btn" href="">Get Appointment</a>
@@ -93,18 +93,18 @@
                 </div>
             </div>
             <!-- Nav Bar End -->
-            
-            
+
+
             <!-- Page Header Start -->
             <div class="page-header">
                 <div class="container">
                     <div class="row">
                         <div class="col-12">
-                            <h2>Practices Areas</h2>
+                            <h2>Case Studies</h2>
                         </div>
                         <div class="col-12">
                             <a href="">Home</a>
-                            <a href="">Practices Areas</a>
+                            <a href="">Case Studies</a>
                         </div>
                     </div>
                 </div>
@@ -112,148 +112,92 @@
             <!-- Page Header End -->
 
 
-            <!-- Service Start -->
-            <div class="service">
+            <!-- Portfolio Start -->
+            <div class="portfolio">
                 <div class="container">
                     <div class="section-header">
-                        <h2>Our Practices Areas</h2>
+                        <h2>Our Case Studies</h2>
                     </div>
                     <div class="row">
-                        <div class="col-lg-4 col-md-6">
-                            <div class="service-item">
-                                <div class="service-icon">
-                                    <i class="fa fa-landmark"></i>
-                                </div>
-                                <h3>Civil Law</h3>
-                                <p>
-                                    Lorem ipsum dolor sit amet elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non
-                                </p>
-                                <a class="btn" href="">Learn More</a>
+                        <div class="col-12">
+                            <ul id="portfolio-flters">
+                                <li data-filter="*" class="filter-active">All</li>
+                                <li data-filter=".first">Civil</li>
+                                <li data-filter=".second">Criminal</li>
+                                <li data-filter=".third">Business</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row portfolio-container">
+                        <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item first">
+                            <div class="portfolio-wrap">
+                                <img src="img/portfolio-1.jpg" alt="Portfolio Image">
+                                <figure>
+                                    <p>Crime</p>
+                                    <a href="#">Murder Case</a>
+                                    <span>01-Jan-2045</span>
+                                </figure>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6">
-                            <div class="service-item">
-                                <div class="service-icon">
-                                    <i class="fa fa-users"></i>
-                                </div>
-                                <h3>Family Law</h3>
-                                <p>
-                                    Lorem ipsum dolor sit amet elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non
-                                </p>
-                                <a class="btn" href="">Learn More</a>
+                        <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item second">
+                            <div class="portfolio-wrap">
+                                <img src="img/portfolio-2.jpg" alt="Portfolio Image">
+                                <figure>
+                                    <p>Politics</p>
+                                    <a href="#">Political Case</a>
+                                    <span>01-Jan-2045</span>
+                                </figure>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6">
-                            <div class="service-item">
-                                <div class="service-icon">
-                                    <i class="fa fa-hand-holding-usd"></i>
-                                </div>
-                                <h3>Business Law</h3>
-                                <p>
-                                    Lorem ipsum dolor sit amet elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non
-                                </p>
-                                <a class="btn" href="">Learn More</a>
+                        <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item third">
+                            <div class="portfolio-wrap">
+                                <img src="img/portfolio-3.jpg" alt="Portfolio Image">
+                                <figure>
+                                    <p>Family</p>
+                                    <a href="#">Divorce Case</a>
+                                    <span>01-Jan-2045</span>
+                                </figure>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6">
-                            <div class="service-item">
-                                <div class="service-icon">
-                                    <i class="fa fa-graduation-cap"></i>
-                                </div>
-                                <h3>Education Law</h3>
-                                <p>
-                                    Lorem ipsum dolor sit amet elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non
-                                </p>
-                                <a class="btn" href="">Learn More</a>
+                        <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item first">
+                            <div class="portfolio-wrap">
+                                <img src="img/portfolio-4.jpg" alt="Portfolio Image">
+                                <figure>
+                                    <p>Finance</p>
+                                    <a href="#">Money Laundering</a>
+                                    <span>01-Jan-2045</span>
+                                </figure>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6">
-                            <div class="service-item">
-                                <div class="service-icon">
-                                    <i class="fa fa-gavel"></i>
-                                </div>
-                                <h3>Criminal Law</h3>
-                                <p>
-                                    Lorem ipsum dolor sit amet elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non
-                                </p>
-                                <a class="btn" href="">Learn More</a>
+                        <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item second">
+                            <div class="portfolio-wrap">
+                                <img src="img/portfolio-5.jpg" alt="Portfolio Image">
+                                <figure>
+                                    <p>Business</p>
+                                    <a href="#">Weber & Partners</a>
+                                    <span>01-Jan-2045</span>
+                                </figure>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6">
-                            <div class="service-item">
-                                <div class="service-icon">
-                                    <i class="fa fa-globe"></i>
-                                </div>
-                                <h3>Cyber Law</h3>
-                                <p>
-                                    Lorem ipsum dolor sit amet elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non
-                                </p>
-                                <a class="btn" href="">Learn More</a>
+                        <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item third">
+                            <div class="portfolio-wrap">
+                                <img src="img/portfolio-6.jpg" alt="Portfolio Image">
+                                <figure>
+                                    <p>Finance</p>
+                                    <a href="#">Property Sharing Case</a>
+                                    <span>01-Jan-2045</span>
+                                </figure>
                             </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 load-more">
+                            <a class="btn" href="#">Load More</a>
                         </div>
                     </div>
                 </div>
             </div>
-            <!-- Service End -->
-            
-            
-            <!-- Feature Start -->
-            <div class="feature">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-7">
-                            <div class="section-header">
-                                <h2>Why Choose Us</h2>
-                            </div>
-                            <div class="row align-items-center feature-item">
-                                <div class="col-5">
-                                    <div class="feature-icon">
-                                        <i class="fa fa-gavel"></i>
-                                    </div>
-                                </div>
-                                <div class="col-7">
-                                    <h3>Best law practices</h3>
-                                    <p>
-                                        Lorem ipsum dolor sit amet elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="row align-items-center feature-item">
-                                <div class="col-5">
-                                    <div class="feature-icon">
-                                        <i class="fa fa-balance-scale"></i>
-                                    </div>
-                                </div>
-                                <div class="col-7">
-                                    <h3>Efficiency & Trust</h3>
-                                    <p>
-                                        Lorem ipsum dolor sit amet elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="row align-items-center feature-item">
-                                <div class="col-5">
-                                    <div class="feature-icon">
-                                        <i class="far fa-smile"></i>
-                                    </div>
-                                </div>
-                                <div class="col-7">
-                                    <h3>Results you deserve</h3>
-                                    <p>
-                                        Lorem ipsum dolor sit amet elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-5">
-                            <div class="feature-img">
-                                <img src="img/feature.jpg" alt="Feature">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Feature End -->
+            <!-- Portfolio Start -->
 
 
             <!-- Newsletter Start -->
@@ -345,7 +289,7 @@
                 </div>
             </div>
             <!-- Footer End -->
-            
+
             <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
         </div>
 
